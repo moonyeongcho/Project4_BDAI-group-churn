@@ -30,7 +30,7 @@ BDA 학회원 조별활동 데이터를 활용해 조별활동 중 이탈에 영
 - 활동/운영: 활동 방식(on_offline), 기수(generation), 활동월차(nth_month)
 - 역할/성과: 조장 여부(group_master), 우수조 여부(excellent_group), 활동 점수(point)
 
-### 4.4 다중공선성(VIF) 처리
+### 4.4 다중공선성(VIF) 처리 및 변수 선택
 VIF를 계산해 다중공선성을 확인하였고, Random Forest와 XGBoost 기반 중요도를 활용해 주요 변수를 선택하여 입력 변수 수를 축소했다.
 
 ## 5. 분석 방법
